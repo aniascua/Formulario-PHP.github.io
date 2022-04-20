@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formulario">
+    <form action="form.php" method="post" autocomplete="off">
+        <table>
+            <tr>
+                <td><input type="text" placeholder="Ingrese su nombre y apellido" name="nombre" required></td>
+            </tr>
+            <tr>
+                <td><input type="password" placeholder="Ingrese su contraseña" name="password" required></td>
+            </tr>
+            <tr>
+                
+                <td>
+                    <input type="radio" name="genero" value="F" required> MUJER
+                <input type="radio" name="genero" value="M" required> HOMBRE
+            </td>
+        </tr>
+        <tr>
+            
+            <td><input type="email" placeholder="tu correo electrónico" name="email" required></td>
+        </tr>
+        <tr>
+            
+            <td>
+                <select class="seleccion" name="materia" required>
+                    <option selected hidden value=""> MATERIAS</option>
+                    <option value="calculo">CALCULO</option>
+                    <option value="fisica">FÍSICA</option>
+                    <option value="matematica">MATEMÁTICA</option>
+                    <option value="programacion">PROGRAMACIÓN</option>
+                    <option value="ingles">INGLÉS</option>
+                </select>
+                <input type="phone" placeholder="tu teléfono" name="telefono" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="ENVIAR" name="enviar">
+            </td>
+        </tr>
+    </table>
+    </form>
+</div>
+</body>
+</html>

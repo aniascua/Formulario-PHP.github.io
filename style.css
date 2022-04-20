@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    background: #282140;
+    color: #282140;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.formulario {
+    
+    width: 250px;
+    background-color: #F29830 ;
+    padding: 40px 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+input[type = "text"]{
+    
+    width: 100%;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 6px 5px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    outline: none;
+    color: #282140;
+}
+input[type = "password"]{
+    
+    width: 100%;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 6px 15px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    outline: none;
+    color: #282140;
+}
+input[type = "email"]{
+    
+    width: 100%;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 6px 15px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    outline: none;
+    color: #282140;
+}
+input[type = "radio"]{
+    
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    
+}
+
+select[class = "seleccion"]{
+    width: 100%;
+    background: #c52431;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 6px 15px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+input[type = "phone"]{
+    width: 100%;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 6px 15px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    outline: none;
+    color: #282140;
+}
+input[type ="submit"]{
+    background: #ffffff;
+    width: 100%;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #000000;
+    font-size: 15px;
+}
+input[type ="submit"]:hover{
+    background: rgb(170, 255, 0);
+    transition: .6s;
+}
+
